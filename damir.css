@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+}
+
+.top{
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+}
+
+.image-box,
+.text-box,
+.bottom{
+    background-color: skyblue;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.image-box{
+    width: 150px;
+    text-align: center;
+}
+
+.image-box img{
+    width: 120px;
+}
+
+.text-box{
+    width: 350px;
+    text-align: center;
+}
+
+.text-box h1{
+    color: red;
+    font-style: italic;
+}
+
+.text-box h2{
+    color: white;
+    font-style: italic;
+}
+
+.bottom{
+    width: 520px;
+    margin: 30px;
+    text-align: center;
+    color: white;
+}
