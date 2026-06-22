@@ -1,31 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Моя страница</title>
     <link rel="stylesheet" href="damir.css">
+    <title>Cool Website</title>
 </head>
+
 <body>
-
-    <div class="top">
-        <div class="image-box">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAe1BMVEW/hnY+JyP////RloZ9UEJ+V8JFLSi6gnM8JSJ4TD7Hi3uWal8wGxm5gn+7fm2gbmDCiHGIX1PFlIf38vGFXLvizMb29PqGY8d6VMWhcZ7Ym4szHxsjERDDj4C8hHvexb7v6OyNZ8Clc5p1UMrSrqSfboBPNC5wTUSpdmjxjCBIAAABeklEQVR4nO3a226CUBBG4W0rikDd2tYjWjzr+z9h2wubdA8Jf4zuknStG65m+MIlGddpYe6vAXWBUgOlBkoNlBooNVBqoNRAqYFSA6UGSg2UGig1UGqg1ECpgVKrQ/WiJqHKsetHzI1LCZW5iGUiKqbJqV8KFChQoECBAgXqC1V+V5TXR1GuYqNW19f/QNzYdImLuliBy0xxTa4FAiIiIqJ/0PrV9GL6UDZ92Dm7e61sGlZvYZvte1CyGzVvGu2ScG67McuroYKaPIVNZ/Pkd/OFglqYsdnULJ/cjErug0pAgQIFChQoUKAioOZBew21D+duRh0mYdXCdPRCRztXmeUHBeWGtpHJD4S8natZrpikMj/oNjbwcf/zggIFChQoUKBAtRdlT0Z9s6nb9TWD9zOdwtvaNH8WytNw7nQ/Vb+XBocfRb5sNi3zIhhLe6BAgQIFChQoUKDaiyrPudA5PAt+LKpTFkLmVPnBqNsCBQoUKFCgQIECFQX1CSPLl67lWGFiAAAAAElFTkSuQmCC" alt="Flag">
-        </div>
-
-        <div class="text-box">
-            <h1>Это <u>моя</u> страница </h1>
-            <h2><u>Мой параграф </u></h2>
-            <a href="https://www.tensorflow.org"></a>
-        </div>
+    <div class="box avatar">
+        <img id="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwv3Ln3bNUwCF76HcwFcbBNdF6TwgQRfyfgDnOCY1ejA&s=10" width="150">
     </div>
 
-    <div class="bottom">
-        <h1>Обо мне</h1>
-        <p></p>
-        <p>Меня зовут Дамир</p>
-        <p>мне 17 лет</p>
-        <p>мне нравится праграмировать и я хочу научится новому</p>
+    <div class="box name">
+        <h1 style="color: red;"><b>This</b> is <u>my</u> <i>page</i></h1>
+        <p style="font-size: 25px;"><b><u><i>This is paragraph</i></u></b></p>
+        <a href="https://tenor.com/ru/view/dancing-pug-vibing-gif-19473916">Source: tensorflow</a>
     </div>
+
+    <div class="box center">
+        <h2>Обо мне</h2>
+        <p>Дамир</p>
+        <p>Дамир</p>
+        <p>Дамир</p>
+    </div>
+
+    <button onclick="changeTheme ()">
+       toggle dark mode
+    </button>
+    <script src="script.js"></script>
+
+
+
+<button onclick="clicker()">
+<h2 id="count">0</h2>
+
+
+
+<button onclick="clicker()">
+    Нажми меня
+</button>
+
+<button onclick="resetCounter()">
+    Сбросить
+</button>
+
+
+<button onclick="changeImage()">
+    Сменить фото
+</button>
+
+<div id="block">
+    
+</div>
+
+<button onclick="toggleBlock()">
+    Показать / Скрыть блок
+</button>
+
+
+</button>
 
 </body>
 </html>
