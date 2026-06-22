@@ -1,11 +1,13 @@
 body{
-    background:#00b3ff;
+    background:white;
+    min-height:180vh;
+    padding-top: 80px;
 }
 
 .container{
     width:800px;
     margin:auto;
-    background:#bde3ef;
+    background:#424242;
     padding:20px;
 }
 
@@ -22,12 +24,12 @@ body{
     justify-content: center;
     border-radius: 20px;
     position: absolute;
-    background: skyblue;
+    background: #b9a147;
     height: fit-content;
     flex-direction: column;
 }
 .avatar{
-    top:5vh;
+    top:7vh;
     left:27vw;
 
     width: 20vw;
@@ -35,7 +37,7 @@ body{
 }
 
 .name
-{top: 5vh;
+{top: 7vh;
      left: 52vw;
    
  width: 20vw;
@@ -53,7 +55,7 @@ width: 50vw;
 
 .bottom{
     margin-top:20px;
-    background:#86c7e8;
+    background:#e6e886;
     border-radius:10px;
     padding:20px;
     text-align:center;
@@ -74,6 +76,7 @@ img{
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+    padding-top: 80px;
 }
 
 .dark {
@@ -82,5 +85,62 @@ body {
 }
 
 #count {
+    color: black;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #e6c64f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    z-index: 1000;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.library{
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    text-align: center;
+}
+
+.books{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.book{
+    width: 100px;
+    height: 140px;
+    background: beige;
+    border: 3px solid black;
+}
+
+.contacts{
+    position: absolute;
+    top: 140vh;
+    left: 0;
+    width: 100%;
+    background: #e6c64f;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacts p{
     color: black;
 }
