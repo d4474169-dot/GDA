@@ -1,6 +1,6 @@
 body{
     background:white;
-    min-height: 90vh;
+    min-height: 70vh;
     padding-top: 80px;
 }
 
@@ -53,11 +53,11 @@ height: 39vh;
 width: 50vw;
 }
 
-.bottom{
+.botton{
     margin-top:20px;
     background:#e6e886;
     border-radius:10px;
-    padding:20px;
+    padding:50px;
     text-align:center;
 }
 
@@ -142,4 +142,10 @@ body {
 
 .contacts p {
     margin: 5px;
+}
+
+.cnopki {
+   position: relative;
+   top: -250px;
+   left: 870px;
 }
